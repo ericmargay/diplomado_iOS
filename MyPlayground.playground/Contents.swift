@@ -12,3 +12,4 @@ greeting = "hgoldsf"
 var miEnteroUno: Int
 // best practice de como declarar la variable
 
+var github: String
