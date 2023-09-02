@@ -25,7 +25,7 @@ while PositionOfPlay < 25 {
         }
     }
     
-    if PositionOfPlay == 24 {
+    if PositionOfPlay == 25 {
         print("Win")
         break
     }

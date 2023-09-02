@@ -22,7 +22,11 @@ enum Pet: String {
 
     init?(name: String) {
         switch name {
+        case "dog": self.init(rawValue: "🐕")
+        case "cat": self.init(rawValue: "😺")
+        case "mouse": self.init(rawValue: "🐁")
         case "turtle": self.init(rawValue: "🐢")
+        case "parakket": self.init(rawValue: "🦆")
         default: return nil
         }
     }
@@ -33,15 +37,5 @@ let myBird = Pet.parakket.type
 let myRept = Pet.turtle.type
 
 let myTurtle = Pet(rawValue: "turtle")
-//let myTurtle: Pet = .turtle
-//let myParakeet = Pet.parakket
-//
-//switch myPet {
-//case .dog:
-//    print("🐢")
-//default: print(myPet?.rawValue ?? Pet.turtle.rawValue
-//)
-//}
 
 
-//: [Next](@next)
