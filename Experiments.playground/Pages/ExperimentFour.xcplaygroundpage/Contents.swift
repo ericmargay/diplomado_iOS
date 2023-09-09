@@ -26,11 +26,10 @@ while PositionOfPlay < 24 {
     }
     
     if PositionOfPlay == 24 {
-        print("Win")
+        print("Has llegado a la casilla 24")
         break
     }
     
     CounterTurn += 1
     
-    print("Tirada \(CounterTurn): Has sacado \(diceRoll). Avanzas a la casilla \(PositionOfPlay)")
 }
