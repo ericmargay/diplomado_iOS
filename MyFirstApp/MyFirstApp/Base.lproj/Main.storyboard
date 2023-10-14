@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jEX-6C-S21">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jEX-6C-S21">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -171,29 +172,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="ZTp-4W-F4M">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" spacing="56" translatesAutoresizingMaskIntoConstraints="NO" id="8GR-7x-6q6">
+                                <rect key="frame" x="59" y="141" width="240" height="496"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="images-4" translatesAutoresizingMaskIntoConstraints="NO" id="aE6-EL-GIf">
-                                        <rect key="frame" x="0.0" y="0.0" width="393" height="267.33333333333331"/>
-                                    </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="images-3" translatesAutoresizingMaskIntoConstraints="NO" id="jAX-cl-Gqh">
-                                        <rect key="frame" x="0.0" y="287.33333333333337" width="393" height="267.33333333333337"/>
-                                    </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="images-2" translatesAutoresizingMaskIntoConstraints="NO" id="S4u-Rn-3f9">
-                                        <rect key="frame" x="0.0" y="574.66666666666663" width="393" height="267.33333333333337"/>
-                                    </imageView>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RHA-Rl-Omp" customClass="CaptionedImage" customModule="MyFirstApp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b0h-Sg-wK9" customClass="CaptionedImage" customModule="MyFirstApp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="184" width="240" height="128"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="T7J-f7-ELQ" customClass="CaptionedImage" customModule="MyFirstApp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="368" width="240" height="128"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
                                 </subviews>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="QSf-Aj-ua2"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="QSf-Aj-ua2" firstAttribute="bottom" secondItem="ZTp-4W-F4M" secondAttribute="bottom" id="HKi-TP-jJ7"/>
-                            <constraint firstItem="ZTp-4W-F4M" firstAttribute="top" secondItem="QSf-Aj-ua2" secondAttribute="top" id="dl5-PS-ED8"/>
-                            <constraint firstItem="ZTp-4W-F4M" firstAttribute="leading" secondItem="QSf-Aj-ua2" secondAttribute="leading" id="onO-Ja-eFN"/>
-                            <constraint firstItem="QSf-Aj-ua2" firstAttribute="trailing" secondItem="ZTp-4W-F4M" secondAttribute="trailing" id="uHE-k4-XDY"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Jjp-dU-JCC"/>
                 </viewController>
@@ -206,9 +204,8 @@
         <image name="folder" catalog="system" width="128" height="96"/>
         <image name="images-2" width="287" height="175"/>
         <image name="images-3" width="275" height="183"/>
-        <image name="images-4" width="360" height="140"/>
         <systemColor name="labelColor">
-            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="secondarySystemBackgroundColor">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

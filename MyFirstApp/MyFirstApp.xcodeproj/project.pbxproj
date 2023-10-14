@@ -18,6 +18,7 @@
 		435F7DB02ABE4B4E00C985A1 /* MyFirstAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435F7DAF2ABE4B4E00C985A1 /* MyFirstAppUITestsLaunchTests.swift */; };
 		435F7DBD2ABE543200C985A1 /* MyLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 435F7DBC2ABE543200C985A1 /* MyLaunchScreen.storyboard */; };
 		5570C2DE2AD9FBBF00E24F6E /* CaptionedImage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5570C2DD2AD9FBBF00E24F6E /* CaptionedImage.xib */; };
+		5570C2E02AD9FE6A00E24F6E /* CaptionedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5570C2DF2AD9FE6A00E24F6E /* CaptionedImage.swift */; };
 		559148012AC7895D006BCF22 /* imageStackViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559148002AC7895D006BCF22 /* imageStackViewViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,7 @@
 		435F7DAF2ABE4B4E00C985A1 /* MyFirstAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		435F7DBC2ABE543200C985A1 /* MyLaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyLaunchScreen.storyboard; sourceTree = "<group>"; };
 		5570C2DD2AD9FBBF00E24F6E /* CaptionedImage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CaptionedImage.xib; sourceTree = "<group>"; };
+		5570C2DF2AD9FE6A00E24F6E /* CaptionedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptionedImage.swift; sourceTree = "<group>"; };
 		559148002AC7895D006BCF22 /* imageStackViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageStackViewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,7 +116,7 @@
 				435F7D9A2ABE4B4E00C985A1 /* Info.plist */,
 				435F7DBC2ABE543200C985A1 /* MyLaunchScreen.storyboard */,
 				559148002AC7895D006BCF22 /* imageStackViewViewController.swift */,
-				5570C2DD2AD9FBBF00E24F6E /* CaptionedImage.xib */,
+				5570C2E12AD9FE7C00E24F6E /* CaptionedImage */,
 			);
 			path = MyFirstApp;
 			sourceTree = "<group>";
@@ -134,6 +136,15 @@
 				435F7DAF2ABE4B4E00C985A1 /* MyFirstAppUITestsLaunchTests.swift */,
 			);
 			path = MyFirstAppUITests;
+			sourceTree = "<group>";
+		};
+		5570C2E12AD9FE7C00E24F6E /* CaptionedImage */ = {
+			isa = PBXGroup;
+			children = (
+				5570C2DD2AD9FBBF00E24F6E /* CaptionedImage.xib */,
+				5570C2DF2AD9FE6A00E24F6E /* CaptionedImage.swift */,
+			);
+			path = CaptionedImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +282,7 @@
 			files = (
 				559148012AC7895D006BCF22 /* imageStackViewViewController.swift in Sources */,
 				435F7D912ABE4B4D00C985A1 /* ViewController.swift in Sources */,
+				5570C2E02AD9FE6A00E24F6E /* CaptionedImage.swift in Sources */,
 				435F7D8D2ABE4B4D00C985A1 /* AppDelegate.swift in Sources */,
 				435F7D8F2ABE4B4D00C985A1 /* SceneDelegate.swift in Sources */,
 			);
